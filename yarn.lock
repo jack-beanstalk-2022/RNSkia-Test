@@ -2956,15 +2956,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@shopify/react-native-skia@npm:1.7.7":
-  version: 1.7.7
-  resolution: "@shopify/react-native-skia@npm:1.7.7"
+"@shopify/react-native-skia@npm:1.11.18":
+  version: 1.11.18
+  resolution: "@shopify/react-native-skia@npm:1.11.18"
   dependencies:
     canvaskit-wasm: "npm:0.39.1"
     react-reconciler: "npm:0.27.0"
   peerDependencies:
-    react: ">=18.0"
-    react-native: ">=0.64"
+    react: ">=18.0 <19.0.0"
+    react-native: ">=0.64 <0.78.0"
     react-native-reanimated: ">=2.0.0"
   peerDependenciesMeta:
     react-native:
@@ -2972,8 +2972,8 @@ __metadata:
     react-native-reanimated:
       optional: true
   bin:
-    setup-skia-web: ./scripts/setup-canvaskit.js
-  checksum: 10c0/8e6544de652617e2404f0c79d0d533863fa80fffa2f220331341122c854839fa4af9ae0a9036d9da50e00b37dcc62741f187d6b089f3dacce1e15e4be2dc20ce
+    setup-skia-web: scripts/setup-canvaskit.js
+  checksum: 10c0/de01379ecf9bd98954874174f12f091163a6c7024e99245fce39f8309c4eb87025f30e3022d10a9b940749c0a77ae4145d157b328b63f4f5ec558305da1248f4
   languageName: node
   linkType: hard
 
@@ -3648,7 +3648,7 @@ __metadata:
     "@babel/runtime": "npm:^7.24.0"
     "@babel/types": "npm:^7.24.0"
     "@firebase/rules-unit-testing": "npm:^3.0.4"
-    "@shopify/react-native-skia": "npm:1.7.7"
+    "@shopify/react-native-skia": "npm:1.11.18"
     "@svgr/webpack": "npm:^8.1.0"
     babel-loader: "npm:^9.1.3"
     babel-plugin-transform-inline-environment-variables: "npm:^0.4.4"

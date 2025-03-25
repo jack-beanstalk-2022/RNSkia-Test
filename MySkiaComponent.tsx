@@ -12,6 +12,10 @@ import {
 } from "react-native-reanimated";
 
 const MySkiaComponent = () => {
+  const [s, setS] = useState(0);
+  useEffect(() => {
+    setS(s+1);
+  }, []);
   const radius = useSharedValue(128);
   useEffect(() => {
     radius.value = withTiming(50, { duration: 2000 });
